@@ -2975,36 +2975,3 @@
     return _;
   };
 });
-
-
-    $(document).ready(function(){
-    $('#story').slick({
-    centerMode: true,
-    centerPadding: '40px',
-    slidesToShow: 5,
-    autoPlay:true,
-    responsive: [
-
- {
-  centerMode: true,
-   breakpoint: 851,
-   settings: {
-     arrows: false,
-     centerPadding: '100px',
-     slidesToShow:1
-   }
- },
- {
-  centerMode: true,
-   breakpoint: 480,
-   settings: {
-     arrows: false,
-     centerPadding: '100px',
-     slidesToShow:1
-   }
- }
-]
-
-});
-
- });
